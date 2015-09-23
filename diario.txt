@@ -1,0 +1,33 @@
+Instalar git 
+
+    1  sudo apt-get install git
+Creamos un repositorio, crear usuario nates
+    No{2  ifconfig
+    3  git
+    4  pwdhgg
+
+    5  ls -l} No
+Clonamos el repositorio
+    6  git clone https://github.com/ftorrecillas/ed.git
+Creamos antes la carpeta ed y nos situamos en ella
+    7  cd ed
+   { 8  git estatus
+    9  status
+   10  git status}
+creamos el gedit
+   11  gedit hola-mundo-git.txt
+ Y lo añadimos
+   13  git add .
+   14  git status
+introducir user y email
+   15  git config --global user.name ftorrecillas
+   16  git config --global user.email dam.ptorrecillas@institutoserpis.org
+   17  gif --list
+   18  git config --list
+lo mandamos te pide usuario y contraseña
+   19  git commit -m "Hola mundo git"
+   20  git log
+  config --global push.default simple (sube el archivo)
+   41  history
+   42  cd ed
+   43  history > diario.txt 
