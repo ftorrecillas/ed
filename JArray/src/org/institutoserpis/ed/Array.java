@@ -20,7 +20,7 @@ public class Array {
 		System.out.println("el puesto del nuemro en el array "+ puesto(v));
 	}
 	//metodo suma
-	private static int suma(int[] w) {
+	public static int suma(int[] w) {
 		// muestra la longitud del vector numero de elementos v.length
 		int sumas;
 		sumas=0;
@@ -31,7 +31,7 @@ public class Array {
 		return sumas;
 	}
 	//devuelve el menor
-	private static int menor(int[] w) {
+	public static int menor(int[] w) {
 		int menos=w[0];
 		
 		for (int index =0; index <w.length; index++){
@@ -45,7 +45,7 @@ public class Array {
 		return menos;
 	}
 	//por ejemplo buscamos si esta el 4 (que no estara porq es 33 ) tendra q devolver -1
-	private static int puesto(int[] w,int 4) {
+	/*public static int puesto(int[] w,int 4) {
 		
 		int igual;
 		
@@ -58,6 +58,6 @@ public class Array {
 		}
 			
 		return menos;
-	}
+	}*/
 }
 
