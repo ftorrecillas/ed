@@ -17,7 +17,7 @@ public class Array {
 		System.out.println("suma de otro array "+ suma(new int[]{ }));
 		
 		System.out.println("el menor del array "+ menor(v));
-		System.out.println("el puesto del nuemro en el array "+ puesto(v));
+		System.out.println("el puesto del nuemro en el array "+ puesto(v,9));
 	}
 	//metodo suma
 	public static int suma(int[] w) {
@@ -44,20 +44,18 @@ public class Array {
 			
 		return menos;
 	}
-	//por ejemplo buscamos si esta el 4 (que no estara porq es 33 ) tendra q devolver -1
-	/*public static int puesto(int[] w,int 4) {
+	//por ejemplo buscamos si esta el 4 (que no estara porq es 33 primera posicion ) tendra q devolver -1
+	public static int puesto(int[] w,int valor) {
 		
-		int igual;
 		
-		for (int index =0; index <w.length; index++){
 		
-			if (w[index]<menos){
-				menos=w[index];
-			}
-				
-		}
+		
+		for (int index =0; index <w.length; index++)
+			if (w[index]==valor)
+				return index; //no hace falta llaves porq solo tienen una sentancia el for-> if y el if->return
+		return -1;//si no lo encuentra devolvera -1
 			
-		return menos;
-	}*/
+		}
+	
 }
 
