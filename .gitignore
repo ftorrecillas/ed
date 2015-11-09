@@ -25,4 +25,9 @@ proguard/
 
 # Log Files
 *.log
+#git push no tiene encuenta estas extas extensiones 
 *~
+# C# monodevelop no tiene encuenta estas extas extensiones 
+*.exe
+*.exe.mdb
+*.userprefs
