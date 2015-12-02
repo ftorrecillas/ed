@@ -1,3 +1,11 @@
+
+2015/11/9
+Instalamos monodevelope con el gestore de paquetes sinacpit 
+intalamos tb nunit, versioncontrol, browser
+2015/10/??
+Instalamos Eclipse
+descarga previa de internet he instalacion
+
 Instalar git 
 
     1  sudo apt-get install git
@@ -31,3 +39,4 @@ lo mandamos te pide usuario y contraseña
    41  history
    42  cd ed
    43  history > diario.txt 
+
